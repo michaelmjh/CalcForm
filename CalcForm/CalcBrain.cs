@@ -40,6 +40,7 @@ namespace CalcForm
             {
                 answer = firstNumber / secondNumber;
             }
+            storeFirstNumber(answer);
             return answer.ToString();
         }
     }
